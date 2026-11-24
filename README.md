@@ -4,7 +4,7 @@ Everything competitive programming related.
 This repo contains my solutions from all the competitive programming websites I'm registered on, as well as a collection of useful algorithms.
 
 Everything is written in **C++**. Currently, there are solutions from:
-- training.olinfo.it
+- training.olinfo.it (and, in a separate folder, territoriali.olinfo.it)
 - cses.fi
 - codeforces.com
 - atcoder.jp

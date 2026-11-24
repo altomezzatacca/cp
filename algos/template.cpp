@@ -5,7 +5,7 @@ using namespace std;
 #define ff first
 #define ss second
 #define endl "\n"
-#define __ << " " <<
+#define __ << " "
 #define all(x) begin(x), end(x)
 #define rall(x) rbegin(x), rend(x)
 template<typename... Args>
@@ -20,7 +20,14 @@ constexpr static int mod2 = 998244353;
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 // template per codice c++ particolarmente lungo
-// compilare con: g++ codice.cpp -o a -O1 -g -fsanitize=address,undefined -Wall -Wextra -Wshadow -Wpedantic
+// compilare con:   g++ codice.cpp -o a.out
+// eseguire con:    ./a.out < input.txt
+// flags:           -DLOCAL -O1 -g -fsanitize=address,undefined -Wall -Wextra -Wshadow -Wpedantic -I..
+// precompilare:    g++ -c -DLOCAL bits/stdc++.h -O1 -fsanitize=address,undefined -Wall -g -Wextra -Wshadow -Wpedantic
+
+#ifdef LOCAL
+// local testing
+#endif
 
 void solve() {
 
