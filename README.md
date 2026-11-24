@@ -10,6 +10,6 @@ Everything is written in **C++**. Currently, there are solutions from:
 - [atcoder](https://atcoder.jp)
 - [kattis](https://open.kattis.com)
 
-The source folders contains a "bits" folder, that helps compiling faster by using pre-compiled <bits/stdc++.h> and <cassert> headers made by the command "g++ -c bits/stdc++.h". Therefore, the most recent files use "bits/stdc++.h" instead of <bits/stdc++.h>. The binary file is not included in the repo because of its size.
+The repo also contains a "bits" folder, which helps compile faster by using a pre-compiled header (.gch) made from <bits/stdc++.h> and <cassert> headers with the command "g++ -c bits/stdc++.h". Therefore, the most recent files use #include "bits/stdc++.h". The binary file is not included in the repo because of its size.
 
 **DO NOT ABUSE!** You should always try a problem before reading its solution and understand the idea behind it before submitting it.
